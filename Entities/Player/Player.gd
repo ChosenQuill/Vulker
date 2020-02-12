@@ -1,7 +1,7 @@
 extends KinematicBody2D
 
 export var speed := 100
-export var jump_force := 200
+export var jump_force := 275
 export var gravity := 750
 export var slope_slide_threshold := 50.0
 export var snap := false

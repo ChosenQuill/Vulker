@@ -7,8 +7,7 @@
 [node name="World" type="Node2D"]
 script = ExtResource( 1 )
 
-[node name="Player" parent="." instance=ExtResource( 2 )]
-position = Vector2( 41.0699, 13.4901 )
-
 [node name="Level" parent="." instance=ExtResource( 3 )]
-tile_data = PoolIntArray( 655361, 9, 0, 655362, 9, 0, 655363, 9, 0, 655364, 9, 0, 655365, 9, 0, 655366, 9, 0, 655367, 9, 0, 655368, 9, 0, 655369, 9, 0, 655370, 9, 0, 655371, 9, 0, 655372, 9, 0, 655373, 9, 0, 655374, 9, 0, 655375, 9, 0, 655376, 9, 0, 655377, 9, 0 )
+
+[node name="Player" parent="." instance=ExtResource( 2 )]
+position = Vector2( 11.3048, 67.5202 )
