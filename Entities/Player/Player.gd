@@ -39,11 +39,11 @@ func _physics_process(delta: float):
 func update_animation(velocity: Vector2):
 	var animation:= 'Idle'
 	if abs(velocity.x) > 5.0:
-		$Sprite.flip_h = velocity.x > 5.0
+		$Sprite.flip_h = velocity.x < 5.0
 		animation = 'Run'
 	
 	if not is_on_floor():
-		animation = "jump" if velocity.y < 0 else "fall"
+		animation = "Jump" if velocity.y < 0 else "Fall"
 	
 	if $AnimationPlayer.current_animation != animation:
 		$AnimationPlayer.play(animation)
