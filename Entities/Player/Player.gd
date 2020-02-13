@@ -13,6 +13,9 @@ var velocity := Vector2()
 func _ready():
 	pass
 
+func _process(delta):
+	$Gun.rotation = get_local_mouse_position().angle()
+
 func _apply_gravity():
 	velocity.y += gravity
 
