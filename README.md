@@ -4,7 +4,7 @@ Vulker is a 2D platformer prototype I built in Godot. The playable level pairs m
 
 **Playable prototype**
 
-[![Vulker gameplay in the industrial level](docs/media/vulker-demo.png)](docs/media/vulker-demo.mp4)
+[![Vulker running and jumping through the industrial level](docs/media/vulker-demo.gif)](docs/media/vulker-demo.mp4)
 
 ## Run the game
 
